@@ -5,5 +5,7 @@ interface IProps {
 }
 
 export default function LayoutB({ children }: IProps) {
-  return <div>This is Layout B{children}</div>;
+  return (
+    <div className="border border-blue-500">This is Layout B{children}</div>
+  );
 }

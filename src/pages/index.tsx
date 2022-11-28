@@ -8,7 +8,9 @@ const Home: NextPageWithLayout = () => {
     <div>
       <div>this is about page</div>
       <div>
-        <Link href="/about">Go to about page</Link>
+        <Link href="/about" className="p-2 m-2 rounded bg-neutral-300 block">
+          Go to about page
+        </Link>
       </div>
     </div>
   );
