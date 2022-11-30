@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.ttf?5f909ec9b123a172ae8e20838ef266d4") format("truetype"),
+url("./icons.woff?5f909ec9b123a172ae8e20838ef266d4") format("woff"),
+url("./icons.woff2?5f909ec9b123a172ae8e20838ef266d4") format("woff2");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-nodejs-plain:before {
+    content: "\f101";
+}
+.icon-react-original:before {
+    content: "\f102";
+}
+.icon-vuejs-original:before {
+    content: "\f103";
+}

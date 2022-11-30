@@ -1,3 +1,4 @@
+import '@/public/font/icons.css';
 import '@/styles/globals.css';
 import { AppPropsWithLayout } from '@/types';
 
